@@ -114,7 +114,7 @@ Posibles extensiones
 Ramiro Chialva
 
  
-[LinkedIn](https://www.linkedin.com/in/ramiro-chialva-7b2496342/) · [GitHub](https://github.com/tu-usuario)
+[LinkedIn](https://www.linkedin.com/in/ramiro-chialva-7b2496342/) · [GitHub](https://github.com/RamiroChialva)
 
 ---
 
