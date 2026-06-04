@@ -1,10 +1,10 @@
-# 🕌 Comparador de Perfumes Árabes — Web Scraper
+Comparador de Perfumes Árabes — Web Scraper
 
 > Herramienta de scraping automático para monitorear y comparar precios de perfumes árabes en e-commerce chileno.
 
 ---
 
-## 📌 ¿Qué hace?
+¿Qué hace?
 
 Este script extrae en tiempo real el catálogo completo de perfumes árabes de múltiples tiendas online chilenas, normaliza los datos y genera un reporte Excel con:
 
@@ -13,7 +13,7 @@ Este script extrae en tiempo real el catálogo completo de perfumes árabes de m
 
 ---
 
-## 🛒 Tiendas cubiertas
+Tiendas cubiertas
 
 | Tienda           | URL                        |
 |------------------|----------------------------|
@@ -25,7 +25,7 @@ Este script extrae en tiempo real el catálogo completo de perfumes árabes de m
 
 ---
 
-## 📊 Estructura del output
+Estructura del output
 
 El archivo `comparador_perfumes_arabes.xlsx` contiene:
 
@@ -35,7 +35,7 @@ El archivo `comparador_perfumes_arabes.xlsx` contiene:
 |---|---|---|---|---|
 | Lattafa Oud For Glory... | Elite Perfumes | 3.825 | https://... | 2026-06-04 12:11 |
 
-**Pestaña ⭐ Resumen Comparativo**:
+**Pestaña Resumen Comparativo**:
 
 | Perfume | Precio ($ CLP) | Tienda más barata | Enlace mejor precio | Precio Elite | Precio Mundo Aromas | Precio Alisha |
 |---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@ El archivo `comparador_perfumes_arabes.xlsx` contiene:
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+Tecnologías utilizadas
 
 - **Python 3.11+**
 - `requests` — llamadas HTTP a las APIs Shopify
@@ -53,7 +53,7 @@ El archivo `comparador_perfumes_arabes.xlsx` contiene:
 
 ---
 
-## 🚀 Instalación y uso
+Instalación y uso
 
 ### 1. Clonar el repositorio
 
@@ -78,7 +78,7 @@ El archivo Excel se genera automáticamente en el **escritorio del usuario**.
 
 ---
 
-## 📁 Estructura del proyecto
+Estructura del proyecto
 
 ```
 comparador-perfumes-arabes/
@@ -91,7 +91,7 @@ comparador-perfumes-arabes/
 
 ---
 
-## 🔍 Detalles técnicos
+Detalles técnicos
 
 - **Paginación automática**: recorre todas las páginas del catálogo hasta recibir una respuesta vacía o un error HTTP
 - **Rate limiting**: espera 2 segundos entre requests para respetar el servidor
@@ -101,7 +101,7 @@ comparador-perfumes-arabes/
 
 ---
 
-## 📈 Posibles extensiones
+Posibles extensiones
 
 - [ ] Historial de precios con SQLite para detectar variaciones en el tiempo
 - [ ] Alertas automáticas por email o Telegram cuando un producto baja de precio
@@ -111,13 +111,13 @@ comparador-perfumes-arabes/
 
 ---
 
-## 👤 Autor
+Ramiro Chialva
 
-**Tu Nombre**  
-[LinkedIn](https://linkedin.com/in/tu-usuario) · [GitHub](https://github.com/tu-usuario)
+ 
+[LinkedIn](https://www.linkedin.com/in/ramiro-chialva-7b2496342/) · [GitHub](https://github.com/tu-usuario)
 
 ---
 
-## 📄 Licencia
+Licencia
 
 MIT License — libre para usar y modificar.
